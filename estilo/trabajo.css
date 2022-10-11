@@ -10,7 +10,7 @@ body{
 
 /*Especificidad: 001*/
 header {
-  background-color: aliceblue;
+  background-color: rgb(247, 251, 254);
 }
 
 /*Especificidad: 001*/
@@ -20,7 +20,7 @@ section {
 
 /*Especificidad: 001*/
 footer {
-  background-color: aliceblue;
+  background-color: rgb(247, 251, 254);
 }
   
   
