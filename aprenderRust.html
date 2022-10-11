@@ -41,10 +41,10 @@
         <p>Si quieres convertirte en un Rustling te recomendamos ver la <a href="https://www.rust-lang.org/es/learn"   title="Aprender Rust">página web oficial de Rust sobre aprendizaje</a>. </p>
         <p>En esa página web te da acceso al Libro Oficial The Rust Programming Language, un curso online, el libro para aprender por ejemplos Rust by Example, la documentación oficial y muchos más libros con contenidos más avanzados. Si quiere obtener más información rellene el siguiente formulario y le explicamos todo paso a paso: </p>
         <form name = "Datos personales">
-            <p><label for="">Nombre: </label><input    id="txtNombre"    type="text"/> </p>
-            <p><label for="">Apellidos: </label><input id="txtApellidos" type="text"/> </p>
-            <p><label for="">Email: </label><input     id="emailPersonal"type="email"/> </p>
-            <p><label for="">Fecha de nacimiento: </label><input id="dateNacimiento" type="date"/> </p>
+            <p><label for="txtNombre">Nombre: </label><input       id="txtNombre"    type="text"/> </p>
+            <p><label for="txtApellidos">Apellidos: </label><input id="txtApellidos" type="text"/> </p>
+            <p><label for="emailPersonal">Email: </label><input    id="emailPersonal"type="email"/> </p>
+            <p><label for="dateNacimiento">Fecha de nacimiento: </label><input id="dateNacimiento" type="date"/> </p>
 
             <p>Información que deseas: </p>
             <fieldset>
@@ -54,7 +54,7 @@
                 <p><input id="cbDoc"  type="checkbox"   value="Documentación online" /><label for="cbDoc">Documentación online </label></p>
                 <p><input id="cbAvanzados"  type="checkbox"   value="Libros avanzados" /><label for="cbAvanzados">Libros avanzados </label></p>
             </fieldset>
-            <p>Explicanos tu caso más al detalle: <textarea> </textarea></p>
+            <p><label for="txtAreaExplicar">Explicanos tu caso más al detalle: </label><textarea id="txtAreaExplicar"> </textarea></p>
             <p><input type="submit"    value="Enviar información" /></p>
         </form>
     </main>
