@@ -1,0 +1,42 @@
+
+##------ Introducción (info muy basica) ------##
+Aspira a ser el lenguaje escogido a la hora de crear programas tando en el lado del cliente como del servidor.
+Lenguaje de programación compilado, general-purpose y multiparadigma con programación funcional pura, procedures, imperativa y OOP.
+Su desarrollo tiene fuertes influencias de la comunidad gracias a las opiniones y colaboraciones de esta.
+Se perfecciona su diseño gracias a las experinecias del motor de navegador Servo y RustC, el compilador propio de Rust.
+Es uno de los lenguajes de programación más usados gracias a su capacidad de trabajo con criptomonedas y de crear nodos.
+
+
+
+##------ Paradigmas y cualidades ------##
+Puede usarse en los sistemas operativos de Linux, macOS, Windows, FreeBSD, OpenBSD, Redox, Android e iOS
+Es un lenguaje multiparadigma y general-purpose:
+	Imperativo: Presencia de fórmulas que alteran el estado del programa
+	OOP:		Creacción de objetos que contienen información y se comunican mediante mensajes
+	Procedural: Englobar unas pocas expresiones repetidas y llamarlas cada vez que se ejecuta.
+	Funcional:	Basado en cálculo lambda y en el uso de funciones matemáticas siendo programación declarativa
+	Concurrente:Capacidad de realizar varios cálculos simultáneamente.
+Se desarrolla con énfasis en la seguridad, control de distribución de memoria y la concurrencia
+
+
+
+##------ Historia y evolución del lenguaje ------##
+Rust surgió como el proyecto personal de Graydon Hoare, un empleado de Mozilla, en 2006. El proyecto fue patrocinado por esta misma empresa en 2009 y, un año después, anunciado al público.
+En 2011 se cambió el compilador inicial escrito en OCaml a uno autohospeado escrito en Rust.
+La primera versión estable, v1.0, de Rust se publicó el 15 de mayo de 2015 y se actualiza con una nueva versión cada 6 semanas.
+Encuestas de popularidad de Stack Overflow demuestran que fue de los lenguajes de programación más queridos en los ultimos años
+
+
+
+##------ Como aprender (ver: https://www.rust-lang.org/es/learn) ------##
+fn main() {
+    println!("¡Hola, mundo!");
+}
+La página oficial de Rust cuenta con múltiples maneras de aprender este lenguaje:
+	El libro The Rust Programming Language, que cubre todos los contenidos desde las bases.
+	Un curso online: Rustlings. Que está especializado para usar command line
+	Rust by Example, que cuenta con muchos ejemplos de código y con explicaciones muy concentradas. También se pueden hacer actividades.
+	La documentación oficial de Rust, obviamente, como la mayor fuente de conocimiento lenguaje, APIs standards, ediciones, compilador y errores. 
+	También tienen libros sobre command-line, web-assembly y sistemas embedidos en los que Rust puede ser usado.
+	Y finalmente, libros mucho más avanzados y profundos tanto para aclarar detalles que no quedasen claros con el libro, como para aprender sobre funciones inseguras o versiones inestables. 
+

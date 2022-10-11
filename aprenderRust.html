@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+ <!-- Datos que describen el documento -->
+ <meta charset="UTF-8" />
+ 
+ <!--Metadatos de los documentos HTML5-->
+ <meta name ="author" content ="Gonzalo Suárez Losada " />
+ <meta name ="description" content ="Información sobre cómo aprender Rust" />
+ <meta name ="keywords" content ="Documentación" />
+ 
+<!--Definición de la ventana gráfica-->
+ <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+ 
+ <title> Rust - aprendizaje </title>
+ <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" />
+</head>
+
+
+<body>
+
+    <!-- Header --> 
+    <header>
+        <h1>Todo sobre Rust </h1>
+        <h2>¿Qué es Rust?</h2>
+    </header>
+    <!-- Nav menu -->
+    <fieldset>
+        <nav>
+            <a title="Inicio"       accesskey="I"    tabindex="1"    href="index.html">Inicio</a>
+            <a title="Paradigmas"   accesskey="P"    tabindex="2"   href="paradigmasRust.html">Paradigmas de Rust</a>
+            <a title="Historia"     accesskey="H"    tabindex="3"   href="historiaRust.html">Historia de Rust</a>
+            <a title="Aprendizaje"  accesskey="A"    tabindex="4"   href="aprenderRust.html">Aprendizaje de Rust</a>
+        </nav>
+    </fieldset>
+
+ <!-- Datos con el contenido que aparece en el navegador -->
+    <main>
+        <h1>¿Quieres aprender Rust?</h1>
+        <p>Si quieres convertirte en un Rustling te recomendamos ver la <a href="https://www.rust-lang.org/es/learn"   title="Aprender Rust">página web oficial de Rust sobre aprendizaje</a>. </p>
+        <p>En esa página web te da acceso al Libro Oficial The Rust Programming Language, un curso online, el libro para aprender por ejemplos Rust by Example, la documentación oficial y muchos más libros con contenidos más avanzados. Si quiere obtener más información rellene el siguiente formulario y le explicamos todo paso a paso: </p>
+        <form name = "Datos personales">
+            <p>Nombre: <input type="text"/> </p>
+            <p>Apellidos: <input type="text"/> </p>
+            <p>Email: <input type="email"/> </p>
+            <p>Fecha de nacimiento: <input type="date"/> </p>
+
+            <p><label for="cb"> Información que deseas: </label></p>
+            <fieldset>
+                <p><input id="cb"   type="checkbox"   value="Libro básico The Rust Programming Language"   checked/>Libro básico The Rust Programming Language </p>
+                <p><input   type="checkbox"   value="Curso online" />Curso online </p>
+                <p><input   type="checkbox"   value="Libro por ejemplos Rust by Example" />Libro por ejemplos Rust by Example </p>
+                <p><input   type="checkbox"   value="Documentación online" />Documentación online </p>
+                <p><input   type="checkbox"   value="Libros avanzados" />Libros avanzados </p>
+            </fieldset>
+            <p>Explicanos tu caso más al detalle: <textarea> </textarea></p>
+            <p><input type="submit"    value="Enviar información" /></p>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Trabajo de Gonzalo Suárez (UO283928)  </p>
+    </footer>
+
+</body>
+
+</html>
