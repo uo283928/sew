@@ -8,10 +8,22 @@ body{
     background-color: rgb(244, 248, 255);
   }
   
-  h1,h2,h3 {
-    font-size: 2.2em;
+  h1{
+    font-size: 2.5em;
     font-weight: bold;
     background-color: rgb(215, 231, 255);
+  }
+
+  h2 {
+    font-size: 1.6em;
+    background-color: rgb(255, 215, 217);
+  }
+
+  h3 {
+    font-size: 1.5em;
+    font-weight: lighter;
+    background-color: rgb(215, 255, 245);
+    
   }
   
   /*Especificidad: 001*/
@@ -22,7 +34,7 @@ body{
   /*Especificidad: 001*/
   section {
     background-color: rgb(232, 241, 255);
-    font-size: 1.3em;
+    font-size: 1.15em;
     font-family: Arial, Helvetica, sans-serif;
   }
 
