@@ -1,0 +1,62 @@
+/********************************
+Gonzalo Suárez Losada - UO283928	
+Descripción de estilos
+********************************/
+
+/*Especificidad: 001*/
+body{
+    background-color: rgb(244, 248, 255);
+  }
+  
+  h1,h2,h3 {
+    font-size: 2.2em;
+    font-weight: bold;
+    background-color: rgb(215, 231, 255);
+  }
+  
+  /*Especificidad: 001*/
+  header {
+    background-color: rgb(232, 241, 255);
+  }
+  
+  /*Especificidad: 001*/
+  section {
+    background-color: rgb(232, 241, 255);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*Especificidad: 001*/
+  footer {
+    background-color: rgb(232, 241, 255);
+    font-style: italic;
+  }
+   
+  /*Especificidad: 001*/
+  dt {
+    font-variant-caps: petite-caps;
+    padding: 1.5%;
+  }
+
+  nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  dl{
+    margin-bottom: 5%;
+  }
+
+  a{
+    color: deeppink;
+    font-weight: bolder;
+  }
+
+  caption {
+    color: deeppink;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  

@@ -26,5 +26,9 @@ section {
 footer {
   background-color: rgb(247, 251, 254);
 }
+
+caption {
+  background-color: blueviolet;
+}
   
   

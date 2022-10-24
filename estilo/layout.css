@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas:'banner' 
+                        'title'
+                        'sections'
+                        'footer';
+    row-gap: 1.1em;
+}
+
+header { grid-area: banner; }
+main h1 { grid-area: title; }
+section { grid-area: sections; }
+footer {grid-area: footer;}
