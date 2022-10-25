@@ -63,13 +63,13 @@ body{
 
   /*Especificidad: 001*/
   a{
-    color: deeppink;
+    color: rgb(83, 0, 44);
     font-weight: bolder;
   }
 
   /*Especificidad: 001*/
   caption {
-    color: deeppink;
+    color: rgb(83, 0, 44);
   }
 
   /*Especificidad: 001*/
