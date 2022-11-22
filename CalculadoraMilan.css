@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 1fr;
+    background-color: black;
+}
+
+input{
+    font-size: 1em;
+}
+
+input[type="text"] {
+    grid-column: 1/5;
+    background-color: white;
+}
+input[type="textarea"] {
+    grid-column: 1/5;
+    height : 3em;
+    background-color: white;
+}
+input[type="button"]{
+    background-color: white;
+}
+
