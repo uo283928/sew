@@ -1,17 +1,18 @@
 body {
     display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: repeat(4,1fr);
     
-    font-size: 3em;
+    font-size: 2em;
     
     background-color: black;
-    gap:2em;
-    margin: 2em;
-    padding: 2em;
+    gap:1.2em;
+    
+    padding: 1.5em;
 }
 
 input{
-    width: 10em;
+    width: 1.5em;
     font-size: 1em;
 }
 
@@ -27,6 +28,6 @@ input[type="textarea"] {
 input[type="button"]{
     background-color: white;
     height: 3em;
-    padding: 2em;
+    padding: 1.5em;
 }
 
