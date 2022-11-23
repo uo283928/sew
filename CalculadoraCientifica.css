@@ -15,14 +15,12 @@ input{
 
 input[type="text"] {
     grid-column: 1/5;
-    grid-column-start: 0;
     grid-column-end: span 5;
     background-color: white;
 }
 input[type="textarea"] {
     grid-column: 1/5;
     height : 3em;
-    grid-column-start: 0;
     grid-column-end: span 4;
     background-color: white;
 }
