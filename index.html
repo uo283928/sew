@@ -7,75 +7,59 @@
  
  <!--Metadatos de los documentos HTML5-->
  <meta name ="author" content ="Gonzalo Suárez Losada " />
- <meta name ="description" content ="Calculadora Cientifica" />
- <meta name ="keywords" content ="Calculadora Cientifica" />
+ <meta name ="description" content ="Calculadora RPN" />
+ <meta name ="keywords" content ="Calculadora RPN" />
  
 <!--Definición de la ventana gráfica-->
  <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
  
  <title> Escribir aquí el título de la página web </title>
- <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
- <script src="CalculadoraCientifica.js"> </script>
+ <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+ <script src="CalculadoraRPN.js"> </script>
 </head>
 
 
 <body>
  <!-- Datos con el contenido que aparece en el navegador -->
-    <label for="pantalla">Calculadora cientifica</label>
-    <input type="text" id="pantalla" value="" disabled />
-    
-    
-    <input type="button" value="DEG" name="arriba" onclick="calculadora.deg()" accesskey="d"/>
-    <input type="button" value="F-E" name="fe" onclick="calculadora.fe()" accesskey="f"/>
+    <label for="ta">Calculadora RPN</label>   
+    <input type="textarea" id = "ta" disabled />
+    <label for="t">Calculadora</label>
+    <input type="text" id="t" +disabled />
+    <!-- Numeros -->
 
-    <input type="button" value="MC" name="arriba" onclick="calculadora.mClear()" accesskey="c"/>
-    <input type="button" value="MR" name="arriba" onclick="calculadora.mRetreive()" accesskey="r"/>
-    <input type="button" value="M+" name="arriba" onclick="calculadora.mMas()" accesskey="k"/>
-    <input type="button" value="M-" name="arriba" onclick="calculadora.mMenos()" accesskey="m"/>
-    <input type="button" value="MS" name="arriba" onclick="calculadora.mSet()" accesskey="s"/>
-    
-    <input type="button" value="x^2" name="medios" onclick="calculadora.square()" accesskey="q"/>
-    <input type="button" value="x^y" name="medios" onclick="calculadora.powerOf()" accesskey="x"/>
-    <input type="button" value="SIN" name="medios" onclick="calculadora.sinButton()" accesskey="i"/>
-    <input type="button" value="COS" name="medios" onclick="calculadora.cosButton()" accesskey="o"/>
-    <input type="button" value="TAN" name="medios" onclick="calculadora.tanButton()" accesskey="a"/>
-
-    <input type="button" value="√" name="medios" onclick="calculadora.raiz()" accesskey="z"/>
-    <input type="button" value="10^x" name="medios"  onclick="calculadora.tenToPowerOf()" accesskey="t"/>
-    <input type="button" value="log" name="medios" onclick="calculadora.log()" accesskey="l"/>
-    <input type="button" value="Exp" name="medios" onclick="calculadora.exp()" accesskey="e"/>
-    <input type="button" value="Mod" name="medios" onclick="calculadora.mod()" accesskey="u"/>
-    
-    <input type="button" value="↑" name="medios" onclick="calculadora.shift()" accesskey="`"/>
-    <input type="button" value="CE" name="medios" onclick="calculadora.clearError()" accesskey=","/>
-    <input type="button" value="C" name="medios" onclick="calculadora.clear()" accesskey="´"/>
-    <input type="button" value="<x" name="medios" onclick="calculadora.borrarChar()" accesskey="ç"/>
-    <input type="button" value="/" name="medios" onclick="calculadora.division()"/>
-
-    <input type="button" value="π" name="medios" onclick="calculadora.pi()" accesskey="p"/> 
-    <input type="button" value="7" name="num" onclick="calculadora.siete()"/>
-    <input type="button" value="8" name="num" onclick="calculadora.ocho()"/>
-    <input type="button" value="9" name="num" onclick="calculadora.nueve()"/>
-    <input type="button" value="*" name="medios" onclick="calculadora.multiplicacion()"/>
-
-    <input type="button" value="n!" name="medios" onclick="calculadora.factorial()" accesskey="g"/>
-    <input type="button" value="4" name="num" onclick="calculadora.cuatro()"/>
-    <input type="button" value="5" name="num" onclick="calculadora.cinco()"/>
-    <input type="button" value="6" name="num" onclick="calculadora.seis()"/>
-    <input type="button" value="-" name="medios" onclick="calculadora.resta()"/>
-
-    <input type="button" value="±" name="medios" onclick="calculadora.cambioSigno()" accesskey="h"/>
-    <input type="button" value="1" name="num" onclick="calculadora.uno()"/>
-    <input type="button" value="2" name="num" onclick="calculadora.dos()"/>
-    <input type="button" value="3" name="num" onclick="calculadora.tres()"/> 
-    <input type="button" value="+" name="medios" onclick="calculadora.suma()"/>
 
     
-    <input type="button" value="(" name="medios" onclick="calculadora.leftBr()" accesskey="b"/>
-    <input type="button" value=")" name="medios" onclick="calculadora.rightBr()" accesskey="n"/>
-    <input type="button" value="0" name="num" onclick="calculadora.cero()"/>
-    <input type="button" value="." name="num" onclick="calculadora.punto()" accesskey="."/>
-    <input type="button" value="=" name="medios" onclick="calculadora.igual()"/>
+    
+    <input type="button" value="SIN" onclick="calculadora.sin()" accesskey="s"/>
+    <input type="button" value="COS" onclick="calculadora.cos()" accesskey="c"/>
+    <input type="button" value="TAN" onclick="calculadora.tan()" accesskey="t"/>
+    <input type="button" value="borrar" onclick="calculadora.borrar()"  accesskey="b"/>
+
+    <input type="button" value="LN" onclick="calculadora.ln()" accesskey="n"/>
+    <input type="button" value="LOG" onclick="calculadora.log()" accesskey="l"/>
+    <input type="button" value="sqrt" onclick="calculadora.raiz()" accesskey="r"/>
+    <input type="button" value="/" onclick="calculadora.division()"/>
+
+    <input type="button" value="1" onclick="calculadora.numero(1)"/>
+    <input type="button" value="2" onclick="calculadora.numero(2)"/>
+    <input type="button" value="3" onclick="calculadora.numero(3)"/>
+    <input type="button" value="*" onclick="calculadora.multiplicacion()"/>
+    
+    <input type="button" value="4" onclick="calculadora.numero(4)"/>
+    <input type="button" value="5" onclick="calculadora.numero(5)"/>
+    <input type="button" value="6" onclick="calculadora.numero(6)"/>
+    <input type="button" value="-" onclick="calculadora.resta()"/>
+    
+    <input type="button" value="7" onclick="calculadora.numero(7)"/>
+    <input type="button" value="8" onclick="calculadora.numero(8)"/>
+    <input type="button" value="9" onclick="calculadora.numero(9)"/>
+    <input type="button" value="+" onclick="calculadora.suma()"/>
+
+    <input type="button" value="↑" onclick="calculadora.shift()" accesskey="i"/>
+    <input type="button" value="0" onclick="calculadora.numero(0)"/>
+    <input type="button" value="." onclick="calculadora.punto()"/>
+    <input type="button" value="ENTER" onclick="calculadora.enter()"/>
+
 
 </body>
 
