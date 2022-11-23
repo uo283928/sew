@@ -147,7 +147,7 @@ class Calculadora {
 
     push(value){
         this.stack.push( value );
-        document.querySelector('input[type="textarea"]').value = 
+        document.querySelector('textarea').value = 
             this.stackString(); 
        
     }

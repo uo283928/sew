@@ -17,7 +17,7 @@ input[type="text"] {
     grid-column: 1/5;
     background-color: white;
 }
-input[type="textarea"] {
+input[textarea] {
     grid-column: 1/5;
     height : 3em;
     background-color: white;
