@@ -14,28 +14,27 @@
  <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
  
  <title> Escribir aquí el título de la página web </title>
- <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
- <script src="CalculadoraRPN.js"> </script>
+ <link rel="stylesheet" type="text/css" href="CalculadoraEspecializada.css" />
+ <script src="CalculadoraEspecializada.js"> </script>
 </head>
 
 
 <body>
  <!-- Datos con el contenido que aparece en el navegador -->
-    <label for="ta">Calculadora RPN</label>   
-    <textarea id = "ta" disabled></textarea>
-    <label for="t">Calculadora</label>
-    <input type="text" id="t" disabled />
+ <label for="ta">Calculadora RPN</label>   
+ <textarea id = "ta" disabled ></textarea>
+ <label for="t">Calculadora energética</label>
+ <input type="text" id="t" +disabled />
     <!-- Numeros -->
 
 
-    
     
     <input type="button" value="SIN" onclick="calculadora.sin()" accesskey="s"/>
     <input type="button" value="COS" onclick="calculadora.cos()" accesskey="c"/>
     <input type="button" value="TAN" onclick="calculadora.tan()" accesskey="t"/>
     <input type="button" value="borrar" onclick="calculadora.borrar()"  accesskey="b"/>
 
-    <input type="button" value="LN" onclick="calculadora.ln()" accesskey="n"/>
+    <input type="button" value="W calor" onclick="calculadora.calcularPotenciaCalorifica()" accesskey="p"/>
     <input type="button" value="LOG" onclick="calculadora.log()" accesskey="l"/>
     <input type="button" value="sqrt" onclick="calculadora.raiz()" accesskey="r"/>
     <input type="button" value="/" onclick="calculadora.division()"/>
