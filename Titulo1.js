@@ -1,0 +1,1 @@
+document.write("<h1>" + alumno.asignatura + "</h1>")

@@ -1,0 +1,1 @@
+document.write("<h4>" + alumno.nombreUniversidad + "</h4>");
