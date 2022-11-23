@@ -2,12 +2,9 @@ body {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(4,1fr);
-    
     font-size: 2em;
-    
     background-color: black;
     gap:1.2em;
-    
     padding: 1.5em;
 }
 
