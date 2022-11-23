@@ -1,5 +1,5 @@
 class Calculadora {
-    constructor() {}
+    constructor() {this.pulsarTecla()}
     pantalla = "";
     number = "";
     first;
@@ -7,6 +7,12 @@ class Calculadora {
     operation = "";
     positionSecondNumber = 0;
     memoria = 0;
+
+    numero (n) {
+        this.pantalla = this.pantalla + n;
+        this.number = this.number + n;
+        document.querySelector('input[type="text"]').value = this.pantalla;
+    }
 
      uno () {
         this.pantalla = this.pantalla + "1";
@@ -158,12 +164,69 @@ class Calculadora {
         this.igual();
     }
 
+    pulsarTecla(){
+        document.addEventListener('keydown', (event)=>{
+            var keyPressed = event.key;
+            switch (keyPressed){
+                case "0":
+                    this.numero(0);
+                    break;
+                case "1":
+                    this.numero(1);
+                    break;
+                case "2":
+                    this.numero(2);
+                    break;
+                case "3":
+                    this.numero(3);
+                    break;
+                case "4":
+                    this.numero(4);
+                    break;
+                case "5":
+                    this.numero(5);
+                    break;
+                case "6":
+                    this.numero(6);
+                    break;
+                case "7":
+                    this.numero(7);
+                    break;
+                case "8":
+                    this.numero(8);
+                    break;
+                case "9":
+                    this.numero(9);
+                    break;
+                
+                case "+":
+                    this.suma();
+                        break;
+                case "-":
+                    this.resta();
+                        break;
+                case "*":
+                    this.multiplicacion();
+                        break;
+                case "/":
+                    this.division();
+                        break;
+                case "\n":
+                    this.igual();
+            }
+
+
+
+
+        });
+    }
+
 
 }
 
 class CalculadoraCientifica extends Calculadora {
     shiftActive = false;
-    constructor(){super()}
+    constructor(){super();this.pulsarTecla();}
     //Trigonometry
     sinButton() {
         if(this.shiftActive) this.sin();
@@ -350,6 +413,10 @@ class CalculadoraCientifica extends Calculadora {
     rightBr() {
         this.pantalla += ")";
     }
+
+
+
+    
 }
 
 var calculadora = new CalculadoraCientifica();
