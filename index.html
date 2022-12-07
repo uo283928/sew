@@ -12,22 +12,26 @@
  
 <!--Definición de la ventana gráfica-->
  <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
- 
+    
  <title> Escribir aquí el título de la página web </title>
  <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
- <script src="Ejercicio11.js"></script>
+ 
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=miMapa.seeMap"></script>
+ <script src="Ejercicio11.js"></script>
 </head>
 
 
-<body onload="gm.pedirPosicion()">
-    <!-- Datos con el contenido que aparece en el navegador -->
-    <h1>Posición del usuario </h1>
-    
-            
+<body>
+    <h1>Clase Mapa dinámico de Google maps</h1>
 
-    <input type="button" onclick="gm.pedirPosicion()" value="Actualizar la posición "/> 
-    
+    <h2>Representa la imagen de un mapa dinámico con los alrededores de la posición del usuario</h2>
+
+    <main id="id" name="mapa-canvas">
+        
+    </main>
+    <input type="button" value="Obtener mapa dinámico" onClick = "miMapa.seeMap()"/>
+   
 </body>
 
 </html>
