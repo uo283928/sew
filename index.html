@@ -7,33 +7,46 @@
  
  <!--Metadatos de los documentos HTML5-->
  <meta name ="author" content ="Gonzalo Suárez Losada " />
- <meta name ="description" content ="Ejercicio 2" />
- <meta name ="keywords" content ="Ejercicio 2" />
+ <meta name ="description" content ="Calculadora Milan" />
+ <meta name ="keywords" content ="Calculadora Milan" />
  
 <!--Definición de la ventana gráfica-->
  <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
  
  <title> Escribir aquí el título de la página web </title>
- <link rel="stylesheet" type="text/css" href="Ejercicio2.css" />
- <script src="InfoNavegador.js"> </script>
+ <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+ <script src="Ejercicio7.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 
 <body>
- <!-- Datos con el contenido que aparece en el navegador -->
- <h1>
-    <script src="NombreNavegador.js"> </script>
- </h1>
-
- <h2>
-    <script src="IdiomaNavegador.js"> </script>
- </h2>
-
- <p>
-    <script src="MasInfoNavegador.js"> </script>
- </p>
-
- 
+    <!-- Datos con el contenido que aparece en el navegador -->
+    <h1>Soy el h1</h1>
+        <h2>Soy el h2</h2>
+            <p name="parrafo">Soy un párrafo</p>
+            <h3 name="h3">Soy el h3</h3>
+            <table name="table">
+                <caption>Texto de prueba</caption>
+                <tr>
+                    <td headers="version">C</td>
+                    <td headers="news">D</td>
+                </tr>
+                <tr>
+                    <td headers="version">E</td>
+                    <td headers="news">F</td>
+                </tr>
+                
+             </table>
+             
+            
+            
+    <input type="button" onclick="bs.changeState()" value="Ocultar/mostrar párrafos"> 
+    <input type="button" onclick="bs.changeTextParrafo()" value="Cambiar párrafos"> 
+    <input type="button" onclick="bs.addTextParrafo()" value="Añadir párrafos"> 
+    <input type="button" onclick="bs.removeTextParrafo()" value="Borrar párrafos"> 
+    <input type="button" onclick="bs.recorrerDom()" value="Mostrar padres de todos los elementos"> 
+    <input type="button" onclick="bs.sumatorio()" value="Sumatorio de sumatorios"> 
 </body>
 
 </html>
