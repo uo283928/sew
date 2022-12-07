@@ -19,12 +19,10 @@ class PrecioOro {
             success: function(datos){
                 var gramosPorOnza = 28.3495;
                 var precioEuros = datos.data.rates.XAU * gramosPorOnza;
-                $('p[name="precio"]').html("El precio del oro acualmente es: " + precioEuros + "€/g ")
+                document.write("<p>El precio del oro acualmente es: " + precioEuros + "€/g </p>")
                 
-              
             },
             error: function() {
-                $('p[name="errorP"]').html(this.error);
 
             }
         });
