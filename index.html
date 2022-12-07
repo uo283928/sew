@@ -14,15 +14,18 @@
  <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
  
  <title> Escribir aquí el título de la página web </title>
- <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css" />
- <script src="MapaGeoJSON.js"></script>
+ <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+ <script src="Ejercicio14.js"></script>
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 
 <body onload="">
-    <p><input type="file" name="archivoTexto" onchange="manager.cargarTodosDatos(this.files);"></p>
-    
+
+    <p><input type="file" name="archivoTexto" onchange="pa.calcularTamañoArchivos(this.files);"></p>
+  
+  <input type="button" value="Puedo ponerme en pantalla completa :)" onclick="fs.changeStatus();"/>
+  
 </body>
 
 </html>

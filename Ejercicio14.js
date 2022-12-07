@@ -11,11 +11,12 @@ class PropiedadesArchivos {
         var tipo = document.getElementsByName("tipoArchivo")[0];
         var ultima = document.getElementsByName("ultimaModificacion")[0];
         
-        nombre.innerText = "Nombre del archivo: " + archivo.name;
-        tamaño.innerText = "Tamaño del archivo: " + archivo.size + " bytes"; 
-        tipo.innerText = "Tipo del archivo: " + archivo.type;
-        ultima.innerText = "Fecha de la última modificación: " + archivo.lastModifiedDate;
-       
+      
+        document.write("<p>" + "Nombre del archivo: " + archivo.name + "</p>")
+        document.write("<p>" + "Tamaño del archivo: " + archivo.size + " bytes" + "</p>")
+        document.write("<p>" + "Tipo del archivo: " + archivo.type + "</p>")
+        document.write("<p>" + "Fecha de la última modificación: " + archivo.lastModifiedDate + "</p>")
+        
       }
 }
 
