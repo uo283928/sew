@@ -91,12 +91,12 @@ class Tiempo {
                     stringDatos += "<li>Descripción: " + descripcion + "</li>";
                     stringDatos += "<li>Hora de la medida: " + horaMedidaLocal + "</li>";
                     stringDatos += "<li>Fecha de la medida: " + fechaMedidaLocal + "</li>"
-                $('p[name="datos' + ciudad + '"]').html(stringDatos);
+                document.write("<p>" + stringDatos + "</p>")
                 return stringDatos;
                                 
             },
             error: function() {
-                $('p[name="errorP"]').html(this.error);
+                
 
             }
         });
