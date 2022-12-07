@@ -37,7 +37,7 @@ class GeoLocalizacion {
         zoom: 8,
         center: new google.maps.LatLng( 43.3661,  -5.8425 )
       };
-      this.map = new google.maps.Map(document.getElementsByName('mapa-canvas')[0], mapOptions);
+      this.map = new google.maps.Map($("main"), mapOptions);
       return this.map;
       //google.maps.event.addDomListener(window, 'load', initialize);
       
