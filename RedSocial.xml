@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Miembros SYSTEM "redsocial.dtd"> 
+
+<Miembros>
+	<Miembro nombreMiembro = "nombre1" apellidosMiembro = "apellidos1" fechaNacimiento = "1/1/1970">
+		<LugarNacimiento nombreLugar="Oviedo" longitud="43.3553" latitud ="-5.8510" altitud="50" />
+		<LugarResidencia nombreLugar="Lugo de LLanera" longitud="43.4437" latitud ="-5.8181" altitud="25" />
+		<Fotografía tituloFotografía="foto1" enlace =""/>
+		<Video tituloVideo="video1a" enlace=""/>
+		<Video tituloVideo="video1b" enlace=""/>
+		<Video tituloVideo="video1c" enlace=""/>
+
+		<Miembro nombreMiembro = "nombre11" apellidosMiembro = "apellidos11" fechaNacimiento = "1/1/1970">
+			<LugarNacimiento nombreLugar="Gijón" longitud="43.5269" latitud ="-5.6500" altitud="11" />
+			<LugarResidencia nombreLugar="Siero" longitud="43.3952" latitud ="-5.6529" altitud="" />
+			<Fotografía tituloFotografía="foto11" enlace =""/>
+			<Video tituloVideo="video11a" enlace=""/>
+			<Video tituloVideo="video11b" enlace=""/>
+			<Video tituloVideo="video11c" enlace=""/>
+		
+			<Miembro nombreMiembro = "nombre11" apellidosMiembro = "apellidos11" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Gijón" longitud="43.5269" latitud ="-5.6500" altitud="11" />
+				<LugarResidencia nombreLugar="Siero" longitud="43.3952" latitud ="-5.6529" altitud="" />
+				<Fotografía tituloFotografía="foto11" enlace =""/>
+				<Video tituloVideo="video11a" enlace=""/>
+				<Video tituloVideo="video11b" enlace=""/>
+				<Video tituloVideo="video11c" enlace=""/>
+		
+			</Miembro>
+			
+			<Miembro nombreMiembro = "nombre11" apellidosMiembro = "apellidos11" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Gijón" longitud="43.5269" latitud ="-5.6500" altitud="11" />
+				<LugarResidencia nombreLugar="Siero" longitud="43.3952" latitud ="-5.6529" altitud="" />
+				<Fotografía tituloFotografía="foto11" enlace =""/>
+				<Video tituloVideo="video11a" enlace=""/>
+				<Video tituloVideo="video11b" enlace=""/>
+				<Video tituloVideo="video11c" enlace=""/>
+		
+			</Miembro>
+			
+			<Miembro nombreMiembro = "nombre11" apellidosMiembro = "apellidos11" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Gijón" longitud="43.5269" latitud ="-5.6500" altitud="11" />
+				<LugarResidencia nombreLugar="Siero" longitud="43.3952" latitud ="-5.6529" altitud="" />
+				<Fotografía tituloFotografía="foto11" enlace =""/>
+				<Video tituloVideo="video11a" enlace=""/>
+				<Video tituloVideo="video11b" enlace=""/>
+				<Video tituloVideo="video11c" enlace=""/>
+		
+			</Miembro>
+		</Miembro>
+		
+		
+		
+		<!-- Segundo miembro -->
+		<Miembro nombreMiembro = "nombre12" apellidosMiembro = "apellidos12" fechaNacimiento = "1/1/1970">
+			<LugarNacimiento nombreLugar="Lena" longitud="43.1631" latitud ="-5.8289" altitud="150" />
+			<LugarResidencia nombreLugar="Noreña" longitud="43.4001" latitud ="-5.7041" altitud="23" />
+			<Fotografía tituloFotografía="foto12" enlace =""/>
+			<Video tituloVideo="video12a" enlace=""/>
+			<Video tituloVideo="video12b" enlace=""/>
+			<Video tituloVideo="video12c" enlace=""/>
+		
+			<Miembro nombreMiembro = "nombre12" apellidosMiembro = "apellidos12" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Lena" longitud="43.1631" latitud ="-5.8289" altitud="150" />
+				<LugarResidencia nombreLugar="Noreña" longitud="43.4001" latitud ="-5.7041" altitud="23" />
+				<Fotografía tituloFotografía="foto12" enlace =""/>
+				<Video tituloVideo="video12a" enlace=""/>
+				<Video tituloVideo="video12b" enlace=""/>
+				<Video tituloVideo="video12c" enlace=""/>
+			
+			</Miembro>
+
+						<Miembro nombreMiembro = "nombre12" apellidosMiembro = "apellidos12" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Lena" longitud="43.1631" latitud ="-5.8289" altitud="150" />
+				<LugarResidencia nombreLugar="Noreña" longitud="43.4001" latitud ="-5.7041" altitud="23" />
+				<Fotografía tituloFotografía="foto12" enlace =""/>
+				<Video tituloVideo="video12a" enlace=""/>
+				<Video tituloVideo="video12b" enlace=""/>
+				<Video tituloVideo="video12c" enlace=""/>
+			
+			</Miembro>
+
+						<Miembro nombreMiembro = "nombre12" apellidosMiembro = "apellidos12" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Lena" longitud="43.1631" latitud ="-5.8289" altitud="150" />
+				<LugarResidencia nombreLugar="Noreña" longitud="43.4001" latitud ="-5.7041" altitud="23" />
+				<Fotografía tituloFotografía="foto12" enlace =""/>
+				<Video tituloVideo="video12a" enlace=""/>
+				<Video tituloVideo="video12b" enlace=""/>
+				<Video tituloVideo="video12c" enlace=""/>
+			
+			</Miembro>
+
+		</Miembro>
+
+
+		<!-- Tercer miembro -->
+		<Miembro nombreMiembro = "nombre13" apellidosMiembro = "apellidos13" fechaNacimiento = "1/1/1970">
+			<LugarNacimiento nombreLugar="Llanes" longitud="43.4206" latitud ="-4.7580" altitud="3" />
+			<LugarResidencia nombreLugar="Tineo" longitud="43.3353" latitud ="-6.4144" altitud="70" />
+			<Fotografía tituloFotografía="foto13" enlace =""/>
+			<Video tituloVideo="video13a" enlace=""/>
+			<Video tituloVideo="video13b" enlace=""/>
+			<Video tituloVideo="video13c" enlace=""/>
+		
+			<Miembro nombreMiembro = "nombre13" apellidosMiembro = "apellidos13" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Llanes" longitud="43.4206" latitud ="-4.7580" altitud="3" />
+				<LugarResidencia nombreLugar="Tineo" longitud="43.3353" latitud ="-6.4144" altitud="70" />
+				<Fotografía tituloFotografía="foto13" enlace =""/>
+				<Video tituloVideo="video13a" enlace=""/>
+				<Video tituloVideo="video13b" enlace=""/>
+				<Video tituloVideo="video13c" enlace=""/>
+			
+			</Miembro>
+			
+			<Miembro nombreMiembro = "nombre13" apellidosMiembro = "apellidos13" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Llanes" longitud="43.4206" latitud ="-4.7580" altitud="3" />
+				<LugarResidencia nombreLugar="Tineo" longitud="43.3353" latitud ="-6.4144" altitud="70" />
+				<Fotografía tituloFotografía="foto13" enlace =""/>
+				<Video tituloVideo="video13a" enlace=""/>
+				<Video tituloVideo="video13b" enlace=""/>
+				<Video tituloVideo="video13c" enlace=""/>
+			
+			</Miembro>
+			
+			<Miembro nombreMiembro = "nombre13" apellidosMiembro = "apellidos13" fechaNacimiento = "1/1/1970">
+				<LugarNacimiento nombreLugar="Llanes" longitud="43.4206" latitud ="-4.7580" altitud="3" />
+				<LugarResidencia nombreLugar="Tineo" longitud="43.3353" latitud ="-6.4144" altitud="70" />
+				<Fotografía tituloFotografía="foto13" enlace =""/>
+				<Video tituloVideo="video13a" enlace=""/>
+				<Video tituloVideo="video13b" enlace=""/>
+				<Video tituloVideo="video13c" enlace=""/>
+			
+			</Miembro>
+		
+		</Miembro>
+		
+	</Miembro>
+	
+</Miembros>

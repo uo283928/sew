@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+ <!-- Datos que describen el documento -->
+ <meta charset="UTF-8" />
+ 
+ <!--Metadatos de los documentos HTML5-->
+ <meta name ="author" content ="Gonzalo Suárez Losada " />
+ <meta name ="description" content ="Calculadora Milan" />
+ <meta name ="keywords" content ="Calculadora Milan" />
+ 
+<!--Definición de la ventana gráfica-->
+ <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+ 
+ <title> Escribir aquí el título de la página web </title>
+ <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+ <script src="MapaKML.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+
+<body onload="">
+    <p><input type="file" name="archivoTexto" onchange="manager.cargarTodosDatos(this.files);"></p>
+    <p name="nombreArchivo"></p>
+    <p name="tamañoArchivo"></p>
+    <p name="tipoArchivo"></p>
+    <p name="ultimaModificacion"></p>
+    <p name="contenidoArchivo"></p>
+    <p name="errorLectura"></p>
+    <p name="errorArchivo"></p>
+    <main id="id" name="main">
+    
+</body>
+
+</html>
