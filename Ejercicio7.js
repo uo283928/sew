@@ -4,10 +4,10 @@ class ButtonState {
 
     applyChange(){
         if(this.isShowing){
-            $('p[name="parrafo"]').show();
+            $('p').show();
             $("h3").show();
         } else {
-            $('p[name="parrafo"]').hide();
+            $('p').hide();
             $("h3").hide();
         }
     }
@@ -19,13 +19,13 @@ class ButtonState {
     }
 
     changeTextParrafo(){
-        $('p[name="parrafo"]').text("Me has cambiado");
+        $('p').text("Me has cambiado");
 
     }
 
     addTextParrafo(){
         var code = $('<p name="borrar"></p>').text("Hola :)");
-        $('p[name="parrafo"]').append(code);
+        $('p').append(code);
     }
 
     removeTextParrafo(){
@@ -46,7 +46,7 @@ class ButtonState {
 
         });
         var code = $('<p name="sumTabla"></p>').text(text);
-        $('table[name="table"]').append(code);
+        $('table]').append(code);
     }
 }
 var bs = new ButtonState();
