@@ -1,0 +1,28 @@
+/********************************
+Gonzalo Suárez Losada - UO283928	
+Descripción de estilos
+********************************/
+
+/*Especificidad: 001*/
+body {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 2em;
+    gap:1.2em;
+    padding: 1.5em;
+
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+
+p {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.3em;
+}
+  
+ h1,h2,h3,h4{
+    font-size: 2.2em;
+}
+  
